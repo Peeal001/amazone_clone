@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    font-family: Arial;
+}
+.bold-title{
+    font-size: 1rem; 
+    color: white;
+    font-weight: 800;
+}
+.navbar{
+    display: flex;
+    height: 60px;
+    background-color: #00453E;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+     
+}
+.logo img{
+    width: 80px;
+    height: 30px;
+}
+.border{
+    border: 2px solid transparent; 
+}
+.border:hover{
+    border: 2px solid white;
+    
+}
+
+/* nav address section design */
+
+.add-first{
+    color:#cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-second{
+    color: #FFFFFF;
+    font-size: 1rem;
+    margin-left: 3px;
+
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+/* Nav search bar design */
+
+.search-bar{
+    display: flex;
+    justify-content: space-evenly;
+    
+    width: 680px;
+    height: 40px;
+    
+}
+.search-border{
+    border: 1px solid transparent;
+
+}
+.search-border:hover{
+    border: 1px solid red; 
+    border-radius: 5px;
+}
+.search-select{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    background-color: #E6E6E6;
+    
+}
+.search-input{
+    width: 100%;
+}
+.search-icon{
+    width: 45px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFDFD7;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+/* language version box design */
+.language{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.usa-flag img{
+    width: 23px;
+    height: 20px;
+    
+}
+.language-title{
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: 800;
+    width: 45px;
+    height: 20px;
+    
+}
+
+/* Sign in box design */
+.welcome-message {
+    font-size: 0.75rem;
+}
+
+.acc-list-title{
+    font-size: 1rem;
+
+}
+.return-title{
+    font-size: 0.75rem;  
+}
+.order-title{
+    font-size: 1rem;
+}
+
+/* Cart box design */
+.cart-bar{
+    display: flex;
+    height: 20px;
+    padding: 5px;
+
+}
+
+.cart-title{
+    font-size: 1rem;
+}
+
+/* All item list bar deign */
+.items-list-bar{
+    display: flex;
+    background-color: #185851;
+    height: 39px;
+    align-items: center;
+    justify-content:space-between;
+}
+.general-item-list{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.general-item-list a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+}
+.navbar-all{
+    margin-left: 10px;
+}
+
+.speacial-item-list{
+    margin-right: 20px;
+}
+
+
+/* Background image set */
+.background-image-section{
+
+}
+.image-show{
+    
+    background: url("images/background_image1.jpg");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.boxes{
+    display: flex;
+}
+.box-container-first-column{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    -ms-grid-column-align: start;
+     
+}
+.discount-box{
+    display: flex;
+
+}
+
+/* Shop Section Designing */
+.shop-container{
+    display: flex;
+    align-items: start;
+    align-content: space-between;
+    background-color: #E4E6E6;
+    align-items: stretch;
+    gap: 10px; 
+    
+}
+.shop-box{
+    background-color: #FFFFFF;
+    height: 420px;
+    width: 335px;
+    margin: 10px;
+    
+}
+.shop-box-header-title{
+    height: 54.99px;
+    width: 295px; 
+    text-align: start;
+    margin-top:23px ;
+    margin-left: 10px;
+}
+.small-box-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+
+}
+.small-boxes{
+    
+    height: 131px;
+    width: 144.5px;
+    margin: 10px;
+}
+.box-images{
+    /* background-image: url("images/bed.png"); 
+     
+     */
+    background-size: cover; 
+    height: 105px;
+    width: 144px;
+}
+.box-discount-title{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+
+}
+.box-discount-title span{
+    font-size: 0.90rem;
+    width: 100%;
+    background-color: red;
+    height: 20px;
+    color: white;
+    width: 70%;
+    border-radius: 5px;
+   
+}
+.box-discount-title p{
+    font-size: 0.8rem;
+    width: 100%;
+    display: flex; 
+    font-weight: 700;  
+    color: red;
+    padding-left: 10px;
+}
+
+/* Top footer design section */
+
+.top-main-footer{
+
+}
+.top-footer{
+    
+}
